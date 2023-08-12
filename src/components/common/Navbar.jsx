@@ -10,6 +10,7 @@ import { apiConnector } from '../../services/apiconnector'
 import { categories } from '../../services/apis'
 import { useState } from 'react'
 import {IoIosArrowDropdownCircle} from "react-icons/io"
+import HamburgerMenu from './HamburgerMenu'
 
 const Navbar = () => {
     const {token} = useSelector( (state) => state.auth );
@@ -162,7 +163,10 @@ const Navbar = () => {
         <button
           className='mr-4 md:hidden'
         >
-            <AiOutlineMenu fontSize={24} fill='#AFB2BF'/>
+            {/* <AiOutlineMenu fontSize={24} fill='#AFB2BF'/> */}
+            <div className="App">
+                <HamburgerMenu />
+            </div>
         </button>
 
       </div>

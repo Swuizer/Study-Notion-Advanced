@@ -229,21 +229,50 @@ details > summary::-webkit-details-marker {
 }
 
 /* Swiper CSS Starts */
-/* .swiper {
+.swiper {
   max-width: 1200px;
   width: 91.66%;
   height: 185px;
   margin: 50px 0px;
-} */
+}
 
 .swiper-slide {
   width: 100%;
   height: 100%;
 }
-/* .swiper-slide {
+.swiper-slide {
   @apply bg-richblack-800 text-richblack-25 p-3 text-[14px];
-} */
+}
 /* Swiper CSS Ends */
+
+
+/* This is just a basic example, you can customize the styles as per your design */
+.bm-menu {
+  background-color: #161D29;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+  margin-top: 18px;
+}
+
+.bm-item {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: white;
+  text-align: center;
+}
+
+.bm-burger-button {
+  position: sticky;
+  width: 36px;
+  height: 30px;
+  right: 20px;
+  top: 20px;
+}
+
+.bm-burger-bars {
+  background: #fff;
+}
+
 
 
 .blackButton {
