@@ -15,7 +15,7 @@ import RatingStars from '../components/common/RatingStars'
 import CourseDetailsCard from '../components/core/Course/CourseDetailsCard'
 import CourseAccordionBar from '../components/core/Course/CourseAccordionBar'
 import ConfirmationModal from "../components/common/ConfirmationModal"
-// import map from './map'; 
+import Error from './Error'
 
 const CourseDetails = () => {
 
