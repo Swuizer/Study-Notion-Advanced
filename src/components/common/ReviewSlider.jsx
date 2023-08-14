@@ -34,7 +34,7 @@ const ReviewSlider = () => {
                 loop={true}
                 freeMode={true}
                 autoplay={{
-                    delay: 1500,
+                    delay: 2500,
                     disableOnInteraction: false,
                 }}
                 modules={[FreeMode, Pagination, Autoplay]}
