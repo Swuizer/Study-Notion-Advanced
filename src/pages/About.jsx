@@ -28,7 +28,7 @@ const About = () => {
                     and nurturing a vibrant learning community.</p>
                 </header>
                 <div className="h-0 lg:h-[250px]"></div>
-                <div className='lg:absolute bottom-0 lg:left-[50%] flex flex-col items-center w-[100%] lg:translate-x-[-50%] lg:translate-y-[30%] sm:w-[80%] lg:w-full lg:flex-row flex-wrap gap-3 -mb-20 lg:mb-0 lg:gap-5'>
+                <div className='absolute bottom-0 left-[50%] grid w-[100%] translate-x-[-50%] translate-y-[30%] grid-cols-3 gap-3 lg:gap-5'>
                     <img src={BannerImage1} alt='' />
                     <img src={BannerImage2} alt='' />
                     <img src={BannerImage3} alt='' />
