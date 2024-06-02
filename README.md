@@ -7,4 +7,4 @@ Link:- https://study-notion-advanced-3288.vercel.app/
 <b>Id: <b/> ritesbanarjee226@gmail.com
 <b>Password: </b> 1212
 # Fake Payment Check
-<b>Gpay UPI Id: </b> aarghyaghosh@oksbi
+<b>Gpay UPI Id: </b> arghyaghosh@oksbi
